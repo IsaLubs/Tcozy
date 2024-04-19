@@ -1,4 +1,4 @@
-# Tcozy
+# Tcozy Hotel
 
 Welcome to Tcozy Hotel, where comfort meets elegance! Our app invites users to experience the epitome of relaxation and luxury at our boutique hotel. Inspired by our passion for hospitality and fueled by a desire to provide a haven for travelers, Tcozy Hotel offers a seamless booking experience for your perfect getaway.
 
