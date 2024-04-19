@@ -203,7 +203,6 @@ JAZZMIN_SETTINGS = {
     "topmenu_links": [
 
         {"name": "Home",  "url": "admin:index", "permissions": ["auth.view_user"]},
-        {"name": "Company", "url": "/admin/addons/company/"},
         {"name": "Users", "url": "/admin/userauths/user/"},
 
         # model admin to link to (Permissions checked against model)
