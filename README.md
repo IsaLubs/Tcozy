@@ -153,7 +153,7 @@ Cloning a repository allows you to create a local copy of it on your machine:
  - Most of the daily problems were solved thanks to Stackoverflow and W3Schools.
 
 ### Technologies Used
-- Figma = Wireframes
+- [Figma = Wireframes](https://www.figma.com/file/k1vDI4pAx518tG6UAGlqEA/Figma-basics?type=design&node-id=511-10&mode=design&t=IzPyqkX3X6K3nHrF-0)
 - Django = Framework
 - HTML = mark up language
 - CSS = styling
