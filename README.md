@@ -21,3 +21,14 @@ Indulge in the Tcozy Hotel experience and let us be your home away from home. We
   
 - Insightful Analytics
   Hotel managers gain valuable insights into performance metrics, occupancy rates, and revenue trends through comprehensive analytics tools. This data-driven approach enables informed decision-making and strategic planning.
+
+## For Guests
+
+- Seamless Booking Experience
+  Guests enjoy a hassle-free booking process with our intuitive reservation system. Whether booking online or through the front desk, the process is quick, secure, and tailored to individual preferences.
+  
+- Exceptional Service
+  From check-in to check-out, guests receive attentive and personalized service from hotel staff. Special requests and preferences are seamlessly integrated into the guest experience, ensuring a memorable stay.
+  
+- Convenient Access
+  Our system offers guests convenient access to essential information and services, such as room availability, amenities, and local attractions. With a user-friendly interface, guests can easily navigate and make the most of their stay.
