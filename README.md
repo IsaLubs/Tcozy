@@ -8,3 +8,16 @@ Run by a team dedicated to ensuring every guest's stay is memorable, Tcozy Hotel
 Just like the personal touch provided by a family-run business, Tcozy Hotel strives to deliver exceptional service tailored to each guest's needs. Whether you're seeking a peaceful weekend escape or a rejuvenating vacation, our cozy rooms and impeccable hospitality promise an unforgettable stay.
 
 Indulge in the Tcozy Hotel experience and let us be your home away from home. Welcome, and enjoy your stay!
+
+# User Experience (UX)
+
+## For Hotel Staff:
+
+- Efficient Workflow Management
+  Hotel staff can navigate through daily tasks effortlessly with our user-friendly interface. From managing bookings to handling room assignments, each step of the workflow is streamlined for maximum efficiency.
+
+- Personalized Guest Service
+  Our system empowers staff to provide personalized experiences for guests. With easy access to guest preferences, special requests, and feedback history, staff members can anticipate needs and exceed expectations.
+  
+- Insightful Analytics
+  Hotel managers gain valuable insights into performance metrics, occupancy rates, and revenue trends through comprehensive analytics tools. This data-driven approach enables informed decision-making and strategic planning.
