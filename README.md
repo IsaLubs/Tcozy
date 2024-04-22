@@ -83,3 +83,22 @@ Ensure the security of guest data and sensitive information with robust security
 ## 8. Mobile Compatibility
 Access key features of the system on the go with mobile compatibility. Whether on a smartphone or tablet, stay connected and manage hotel operations from anywhere, at any time.
 
+# Testing
+
+## Manual Testing:
+
+### Functional Testing
+ - Booking Process: Manually test the booking process to ensure that guests can make reservations smoothly, and staff can manage bookings effectively.
+ - User Authentication: Verify that user authentication mechanisms, such as login and registration, function correctly and securely.
+ - Room Management: Test the functionalities related to room management, including adding, editing, and deleting rooms.
+ - Guest Services: Validate that guest services, such as room service requests and housekeeping, are working as expected.
+### Usability Testing
+ - User Interface: Evaluate the user interface for intuitiveness, clarity, and consistency, ensuring that users can navigate the system with ease.
+ - Accessibility: Test the system's accessibility features to ensure compliance with accessibility standards and accommodate users with disabilities.
+ - Error Handling: Assess how the system handles errors and edge cases, providing informative error messages and guiding users to resolve issues.
+
+### Compatibility Testing
+ - Browser Compatibility: Test the system across different web browsers (e.g., Chrome, Firefox, Safari) to ensure consistent functionality and appearance.
+ - Device Compatibility: Validate the system's performance on various devices, including desktops, laptops, tablets, and smartphones, to accommodate users across different platforms.
+
+
