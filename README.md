@@ -166,3 +166,14 @@ Cloning a repository allows you to create a local copy of it on your machine:
 - ElephantSQL
 - [TinyPNG](https://tinypng.com/) used to compress images
 
+# Acknowledgment
+We would like to express our gratitude to the following individuals and organizations for their invaluable contributions to the development and success of our Django Hotel Management System:
+
+ - Open Source Community: We are indebted to the vibrant open-source community for their continuous support, inspiration, and contributions to the Django framework and related technologies.
+ - Django Developers: Our heartfelt thanks to the developers of Django for creating a powerful, flexible, and scalable web framework that serves as the foundation for our hotel management system.
+ - Contributors: A special acknowledgment to all the contributors who have dedicated their time, expertise, and effort to enhance the functionality, usability, and reliability of our system through code contributions, bug reports, and feature suggestions.
+ - Beta Testers: We extend our appreciation to the beta testers who volunteered to test early versions of the system, providing valuable feedback and insights that helped us identify and address issues before the official release.
+ - Stack Overflow Community: We are grateful to the Stack Overflow community for providing invaluable assistance and solutions to technical challenges encountered during the development process.
+ - Documentation Contributors: Our thanks to those who have contributed to the documentation efforts, helping to create clear, comprehensive, and user-friendly guides for installation, usage, and troubleshooting.
+
+We deeply appreciate the collective effort and collaboration that have made our Django Hotel Management System possible. Your support and contributions are truly appreciated!
