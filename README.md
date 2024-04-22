@@ -152,3 +152,17 @@ Cloning a repository allows you to create a local copy of it on your machine:
 ### Issues with code
  - Most of the daily problems were solved thanks to Stackoverflow and W3Schools.
 
+### Technologies Used
+- Figma = Wireframes
+- Django = Framework
+- HTML = mark up language
+- CSS = styling
+- [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/download/) = styling
+- Python = functionality
+- VS Code = IDE
+- Heroku = Deployment
+- GitHub = Used to store the project
+- Git = version control
+- ElephantSQL
+- [TinyPNG](https://tinypng.com/) used to compress images
+
