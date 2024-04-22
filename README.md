@@ -32,3 +32,27 @@ Indulge in the Tcozy Hotel experience and let us be your home away from home. We
   
 - Convenient Access
   Our system offers guests convenient access to essential information and services, such as room availability, amenities, and local attractions. With a user-friendly interface, guests can easily navigate and make the most of their stay.
+
+## Home Page
+![Screenshot 2024-04-22 025143](https://github.com/KadDenuwara/HMS/assets/137709290/11954c3b-012f-4147-99da-80a75d6646f1)
+
+## Login Page
+![Screenshot 2024-04-22 025541](https://github.com/KadDenuwara/HMS/assets/137709290/19c89446-0944-4080-b265-a08ce8c769d8)
+
+## SignUp Page
+![Screenshot 2024-04-22 031459](https://github.com/KadDenuwara/HMS/assets/137709290/788aa311-5bbf-49ee-98de-b0c3a1061487)
+
+## Hotel Details Page
+![Screenshot 2024-04-22 025223](https://github.com/KadDenuwara/HMS/assets/137709290/f112604c-9e01-4f61-ad31-4cacabdebeff)
+
+## User Dashboard
+![Screenshot 2024-04-22 025339](https://github.com/KadDenuwara/HMS/assets/137709290/818f5701-fd2d-496a-ae1f-f27f1b80535b)
+
+## AboutUs Page
+![Screenshot 2024-04-22 025243](https://github.com/KadDenuwara/HMS/assets/137709290/dafa39cd-55b5-4c76-9028-4fc0192e0c59)
+
+## Footer Links & Our Social Media Links
+![Screenshot 2024-04-22 031533](https://github.com/KadDenuwara/HMS/assets/137709290/d20999a5-a78a-4667-a83e-01143393933a)
+
+## Admin Panel
+![Screenshot 2024-04-22 025402](https://github.com/KadDenuwara/HMS/assets/137709290/cda5922f-453e-4c91-beb5-b3204c89695a)
