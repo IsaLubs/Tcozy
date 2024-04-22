@@ -136,3 +136,19 @@ Cloning a repository allows you to create a local copy of it on your machine:
  - You may be prompted to enter your GitLab credentials if you haven't authenticated previously.
  - Once the clone process is complete, you'll have a local copy of the repository in the directory you specified.
 
+# Credits
+
+### Code
+ - To help me get started with the project and understand the basics, i followed Code Institute and Matt´s Walktrough on "I Think therefore i Blog", big thanks for getting me started.
+
+ - Ed, Ger and Oisin, Tutors at Code Institute helped me solve some bugs in my code, big thanks.
+
+### Bootstrap
+ - Bootstrap has an amazing library and has helped me focus on the backend and save a lot of time with style, and layout on the frontend.
+
+### Django
+ - The generic views from Django made my life much easier, also great documentation.
+
+### Issues with code
+ - Most of the daily problems were solved thanks to Stackoverflow and W3Schools.
+
