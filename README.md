@@ -162,10 +162,10 @@ Cloning a repository allows you to create a local copy of it on your machine:
 - [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/download/) = styling
 - Python = functionality
 - VS Code = IDE
-- Heroku = Deployment
+- [Heroku = Deployment](https://dashboard.heroku.com/apps)
 - GitHub = Used to store the project
 - Git = version control
-- ElephantSQL
+- [ElephantSQL](https://www.elephantsql.com/)
 - [TinyPNG](https://tinypng.com/) used to compress images
 
 # Acknowledgment
