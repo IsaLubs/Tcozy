@@ -102,3 +102,37 @@ Access key features of the system on the go with mobile compatibility. Whether o
  - Device Compatibility: Validate the system's performance on various devices, including desktops, laptops, tablets, and smartphones, to accommodate users across different platforms.
 
 
+# Deployment
+
+## Steps taken to deploy on Heroku:
+
+### Set up the workspace:
+
+ - Install gunicorn: Gunicorn is a Python WSGI HTTP Server for UNIX, required for Heroku deployment. Install it in your workspace using pip install gunicorn.
+ - Update requirements.txt and create Procfile: Ensure that gunicorn is added to your requirements.txt file. Create a Procfile in the root directory of your project and add the following line: web: gunicorn <hotel_management>.wsgi --log-file -.
+ - Set DEBUG to False: In your Django project's settings.py, set DEBUG = False to ensure that your application runs in production mode.
+ - Git add, commit and push changes to GitHub: Add any changes you've made, commit them, and push them to your GitHub repository.
+
+### Deploy on Heroku:
+
+ - Create the app on Heroku and connect to GitHub project: Log in to your Heroku account, navigate to the dashboard, and create a new app. Connect your Heroku app to your GitHub repository under the "Deploy" tab.
+ - Set Config Vars in the "Settings" Tab: Go to the "Settings" tab of your Heroku app. Under the "Config Vars" section, set any necessary environment variables required for your Django application, such as SECRET_KEY, DATABASE_URL.
+ - Deploy the app: Navigate to the "Deploy" tab on your Heroku dashboard. Scroll down to the "Manual deploy" section and click on "Deploy Branch". Heroku will then fetch the latest code from your GitHub repository and start the deployment process.
+ - Verify deployment: Once the deployment process is complete, Heroku will provide you with a URL where your application is now live. You can visit this URL to verify that your Django application is running correctly on Heroku.
+
+
+## Clone Repository
+
+Cloning a repository allows you to create a local copy of it on your machine:
+
+ - Within GitLab, navigate to the repository you want to clone.
+ - Look for the "Clone" button, usually located on the right side of the repository page.
+ - Click the "Clone" button and copy the HTTPS or SSH URL provided.
+ - In your terminal or Git Bash, navigate to the directory where you want to clone the repository.
+ - Type 'git clone' followed by the URL you copied from GitLab. For example:
+    git clone https://gitlab.com/username/repository.git
+ - If you're using SSH, you'd use an SSH URL instead.
+ - Press Enter. Git will clone the repository onto your local machine.
+ - You may be prompted to enter your GitLab credentials if you haven't authenticated previously.
+ - Once the clone process is complete, you'll have a local copy of the repository in the directory you specified.
+
