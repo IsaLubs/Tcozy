@@ -56,3 +56,30 @@ Indulge in the Tcozy Hotel experience and let us be your home away from home. We
 
 ## Admin Panel
 ![Screenshot 2024-04-22 025402](https://github.com/KadDenuwara/HMS/assets/137709290/cda5922f-453e-4c91-beb5-b3204c89695a)
+
+# Features
+
+## 1. Booking Management
+Effortlessly handle room reservations, check-ins, and check-outs with our intuitive booking management system. From single bookings to group reservations, streamline the entire process for maximum efficiency.
+
+## 2. Inventory Control
+Maintain full control over your hotel's inventory, including room availability, rates, and special packages. Easily adjust pricing, manage room allocations, and track inventory in real-time.
+
+## 3. Guest Relations
+Deliver exceptional guest service with personalized experiences tailored to individual preferences. Access guest profiles, manage special requests, and gather valuable feedback to enhance guest satisfaction.
+
+## 4. Financial Tracking
+Stay on top of your hotel's financial health with comprehensive financial tracking tools. Monitor revenue, expenses, and billing transactions to ensure accurate accounting and financial management.
+
+## 5. Admin Dashboard
+Access a centralized dashboard with insightful analytics, reports, and administrative tools. Gain valuable insights into occupancy rates, revenue trends, and guest demographics to inform strategic decision-making.
+
+## 6. Customization Options
+Tailor the system to your hotel's unique requirements with flexible customization options. From branding and theme customization to configuring user permissions, adapt the system to suit your specific needs.
+
+## 7. Security Measures
+Ensure the security of guest data and sensitive information with robust security measures. Implement encryption, access controls, and regular security audits to protect against potential threats.
+
+## 8. Mobile Compatibility
+Access key features of the system on the go with mobile compatibility. Whether on a smartphone or tablet, stay connected and manage hotel operations from anywhere, at any time.
+
