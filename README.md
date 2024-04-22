@@ -1,6 +1,8 @@
 # Tcozy Hotel
 [Visit the website here](https://tcozy-4c40e375cd15.herokuapp.com/)
 
+Welcome to our comprehensive Django Hotel Management System! We're thrilled to have you on board. Whether you're a hotel manager, staff member, or developer, this system is designed to streamline your operations and enhance guest experiences.
+
 Welcome to Tcozy Hotel, where comfort meets elegance! Our app invites users to experience the epitome of relaxation and luxury at our boutique hotel. Inspired by our passion for hospitality and fueled by a desire to provide a haven for travelers, Tcozy Hotel offers a seamless booking experience for your perfect getaway.
 
 Run by a team dedicated to ensuring every guest's stay is memorable, Tcozy Hotel was born out of a vision to create a tranquil retreat reminiscent of home. Utilizing Django for the first time, we've crafted a website that strikes the perfect balance between simplicity and functionality. With intuitive navigation, users can effortlessly explore our range of amenities and reserve their ideal accommodations with ease.
