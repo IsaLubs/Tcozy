@@ -36,28 +36,28 @@ Indulge in the Tcozy Hotel experience and let us be your home away from home. We
   Our system offers guests convenient access to essential information and services, such as room availability, amenities, and local attractions. With a user-friendly interface, guests can easily navigate and make the most of their stay.
 
 ## Home Page
-![Screenshot 2024-04-22 025143](https://github.com/KadDenuwara/HMS/assets/137709290/11954c3b-012f-4147-99da-80a75d6646f1)
+![Screenshot 2024-04-22 025143](https://github.com/IsaLubs/Tcozy/assets/147058041/4f8f181f-4757-472f-8f1c-b863b464be1f)
 
 ## Login Page
-![Screenshot 2024-04-22 025541](https://github.com/KadDenuwara/HMS/assets/137709290/19c89446-0944-4080-b265-a08ce8c769d8)
+![Screenshot 2024-04-22 025541](https://github.com/IsaLubs/Tcozy/assets/147058041/d8fc2743-609c-4a4b-a6db-2326012cadff)
 
 ## SignUp Page
-![Screenshot 2024-04-22 031459](https://github.com/KadDenuwara/HMS/assets/137709290/788aa311-5bbf-49ee-98de-b0c3a1061487)
+![Screenshot 2024-04-22 031459](https://github.com/IsaLubs/Tcozy/assets/147058041/f7dbdf1d-8674-4a2e-838e-7a6ed9eb2e04)
 
 ## Hotel Details Page
-![Screenshot 2024-04-22 025223](https://github.com/KadDenuwara/HMS/assets/137709290/f112604c-9e01-4f61-ad31-4cacabdebeff)
+![Screenshot 2024-04-22 025223](https://github.com/IsaLubs/Tcozy/assets/147058041/f6a66142-d3de-4c15-9494-5a88672f12a1)
 
 ## User Dashboard
-![Screenshot 2024-04-22 025339](https://github.com/KadDenuwara/HMS/assets/137709290/818f5701-fd2d-496a-ae1f-f27f1b80535b)
+![Screenshot 2024-04-22 025339](https://github.com/IsaLubs/Tcozy/assets/147058041/a0de8aee-3092-490c-bce7-18fd4255e5af)
 
 ## AboutUs Page
-![Screenshot 2024-04-22 025243](https://github.com/KadDenuwara/HMS/assets/137709290/dafa39cd-55b5-4c76-9028-4fc0192e0c59)
+![Screenshot 2024-04-22 025243](https://github.com/IsaLubs/Tcozy/assets/147058041/629144d9-98ad-4368-9b82-0e12a040ab2a)
 
 ## Footer Links & Our Social Media Links
-![Screenshot 2024-04-22 031533](https://github.com/KadDenuwara/HMS/assets/137709290/d20999a5-a78a-4667-a83e-01143393933a)
+![Screenshot 2024-04-22 031533](https://github.com/IsaLubs/Tcozy/assets/147058041/cf9a922c-1a8f-4143-b158-9b2048194a18)
 
 ## Admin Panel
-![Screenshot 2024-04-22 025402](https://github.com/KadDenuwara/HMS/assets/137709290/cda5922f-453e-4c91-beb5-b3204c89695a)
+![Screenshot 2024-04-22 025402](https://github.com/IsaLubs/Tcozy/assets/147058041/3dccd187-eb15-4333-a21d-fe61364a1259)
 
 # Features
 
