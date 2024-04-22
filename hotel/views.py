@@ -47,6 +47,10 @@ def hotel_detail(request, slug):
     }
     return render(request, "hotel/hotel_detail.html", context)
 
+def about_us(request):
+    return render(request, "partials/about.html")
+
+
 
 def room_type_detail(request, slug, rt_slug):
     hotel = Hotel.objects.get(status="Live", slug=slug)
