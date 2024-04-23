@@ -167,7 +167,7 @@ Cloning a repository allows you to create a local copy of it on your machine:
 - [TinyPNG](https://tinypng.com/) used to compress images
   
 # Media & Layout
-- The media for this project was provided directly by Soul Base Pilates Studio.
+- The media for this project was provided directly by Hotel management-tcozy.
 
 # Acknowledgment
 We would like to express our gratitude to the following individuals and organizations for their invaluable contributions to the development and success of our Django Hotel Management System:
