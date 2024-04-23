@@ -85,6 +85,8 @@ Access key features of the system on the go with mobile compatibility. Whether o
 
 # Testing
 ![3w](https://github.com/IsaLubs/Tcozy/assets/147058041/dd231c33-65ed-4051-9685-746dd9b14301)
+
+![PYTHON](https://github.com/IsaLubs/Tcozy/assets/147058041/07367c41-7f4c-4177-ad54-b89544b1503d)
 ## Manual Testing:
 
 ### Functional Testing
