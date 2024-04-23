@@ -84,7 +84,7 @@ Ensure the security of guest data and sensitive information with robust security
 Access key features of the system on the go with mobile compatibility. Whether on a smartphone or tablet, stay connected and manage hotel operations from anywhere, at any time.
 
 # Testing
-
+![3w](https://github.com/IsaLubs/Tcozy/assets/147058041/dd231c33-65ed-4051-9685-746dd9b14301)
 ## Manual Testing:
 
 ### Functional Testing
