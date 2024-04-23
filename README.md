@@ -10,7 +10,7 @@ Run by a team dedicated to ensuring every guest's stay is memorable, Tcozy Hotel
 Just like the personal touch provided by a family-run business, Tcozy Hotel strives to deliver exceptional service tailored to each guest's needs. Whether you're seeking a peaceful weekend escape or a rejuvenating vacation, our cozy rooms and impeccable hospitality promise an unforgettable stay.
 
 Indulge in the Tcozy Hotel experience and let us be your home away from home. Welcome, and enjoy your stay!
-
+![black](https://github.com/IsaLubs/Tcozy/assets/147058041/3ac784bc-3fc5-4f4f-b41d-15db11f9a1c0)
 # User Experience (UX)
 
 ## For Hotel Staff:
