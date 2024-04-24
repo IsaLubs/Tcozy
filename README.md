@@ -103,7 +103,50 @@ Access key features of the system on the go with mobile compatibility. Whether o
  - Browser Compatibility: Test the system across different web browsers (e.g., Chrome, Firefox, Safari) to ensure consistent functionality and appearance.
  - Device Compatibility: Validate the system's performance on various devices, including desktops, laptops, tablets, and smartphones, to accommodate users across different platforms.
 
+### Authorization
+This applies to every browser. User is authenticated in the browser when they log in.
 
+- User gets redirected to login page if not authenticated for /new//order.
+
+- User gets redirected to login page if not authenticated for /edit/order.
+
+- User gets redirected to login page if not authenticated for /delete/order.
+
+- User gets redirected to login page if not authenticated for /overview.
+
+- User gets redirected to login page if not authenticated for /user/overview.
+
+- User gets redirected to login page if not authenticated for /new/candidate.
+
+- Message "You need to be a customer to have access to this page" being displayed to partner if they try to access /user/overview.
+
+- Message "You need to be a customer to have access to this page" being displayed to partner if they try to access /new/order.
+
+- Message "You need to be a partner to have access to this page" being displayed to customer if they try to access /overview.
+
+- Message "You need to be a partner to have access to this page" being displayed to customer if they try to access /new/candidate.
+
+- Message "This is not your request and you do not have access to this page" being displayed if customer/partner try to access /edit or /delete a request that is not theirs.
+
+- SQL Injection has been tried to access database information or destroy database without any success.
+
+### Responsivness
+Chrome dev tools were used throughout the development of the project to test responsiveness. Responsiveness was tested using Dev Tools to emulate the following devices.
+
+- Iphone 5
+- Iphone 6/7/8
+- Iphone 6/7/8 Plus
+- Iphone X
+- Ipad
+- Ipad Pro
+### Browser Testing
+During development, testing was mainly done solely using Google Chrome.
+
+In production the site has been tested on the following browsers.
+
+- Firefox
+- Safari
+- Opera
 # Deployment
 
 ## Steps taken to deploy on Heroku:
