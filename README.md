@@ -225,11 +225,11 @@ Cloning a repository allows you to create a local copy of it on your machine:
 ### Bootstrap
  - Bootstrap has an amazing library and has helped me focus on the backend and save a lot of time with style, and layout on the frontend.
 
-### Django
- - The generic views from Django made my life much easier, also great documentation.
+#### Django
+* The generic views from [Django](https://www.djangoproject.com/) made my life much easier, also great documentation.
 
-### Issues with code
- - Most of the daily problems were solved thanks to Stackoverflow and W3Schools.
+#### Issues with code
+Most of the daily problems were solved thanks to [Stackoverflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/).
 
 ### Technologies Used
 - [Figma = Wireframes](https://www.figma.com/file/k1vDI4pAx518tG6UAGlqEA/Figma-basics?type=design&node-id=511-10&mode=design&t=IzPyqkX3X6K3nHrF-0)
