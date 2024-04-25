@@ -244,7 +244,25 @@ Cloning a repository allows you to create a local copy of it on your machine:
 - Git = version control
 - [ElephantSQL](https://www.elephantsql.com/)
 - [TinyPNG](https://tinypng.com/) used to compress images
-  
+* [HTML](https://sv.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://www.javascript.com/)
+* [Python](https://www.python.org/)
+* [Django](https://www.djangoproject.com/)
+* [ElephantSQL](https://www.elephantsql.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Heroku](https://id.heroku.com/login)
+* [Cloudinary](https://cloudinary.com/)
+* [Github](https://github.com/)
+* [Gitpod](https://www.gitpod.io/)
+* [Balsamiq](https://balsamiq.com/)
+* [SimpleImageResizer](https://www.simpleimageresizer.com/)
+* [Pagespeed](https://pagespeed.web.dev/)
+* [Miniwebtool](https://miniwebtool.com/django-secret-key-generator/)
+* [Techsini](https://techsini.com/multi-mockup/index.php)
+* [Pexels](https://www.pexels.com)
+* [Writer](https://writer.com/grammar-checker/)
+
 # Media & Layout
 - The media for this project was provided directly by Hotel management-tcozy.
 
