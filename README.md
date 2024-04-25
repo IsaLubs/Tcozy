@@ -82,6 +82,22 @@ Ensure the security of guest data and sensitive information with robust security
 
 ## 8. Mobile Compatibility
 Access key features of the system on the go with mobile compatibility. Whether on a smartphone or tablet, stay connected and manage hotel operations from anywhere, at any time.
+# Target Group: 
+Customers:
+Hotel Owners and Operators:
+Tcozy targets hotel owners and operators who are seeking to optimize their operations, enhance guest experiences, and increase profitability. These individuals are responsible for overseeing the day-to-day management of hotels and are often looking for innovative solutions to streamline processes and improve overall performance.
+
+Hospitality Management Professionals:
+This segment includes hotel managers, general managers, and other hospitality professionals who are tasked with ensuring smooth operations within their establishments. They seek tools and platforms like Tcozy to assist them in various aspects of hotel management, including reservations, guest services, housekeeping, and staff management.
+
+Partners:
+Technology Providers:
+Tcozy partners with technology providers who offer complementary solutions such as property management systems (PMS), channel managers, booking engines, and other hospitality software. By integrating with these providers, Tcozy enhances its value proposition and offers a comprehensive suite of tools to its customers.
+
+Hospitality Consultants:
+Consulting firms specializing in hospitality management are valuable partners for Tcozy. These consultants provide expertise in areas such as revenue management, marketing strategies, operational efficiency, and guest satisfaction. By collaborating with Tcozy, consultants can offer their clients access to innovative technology solutions that drive tangible results.
+
+Overall, Tcozy's target groups comprise hotel owners, operators, and management professionals who seek to optimize their operations and enhance guest experiences, as well as technology providers and hospitality consultants who can contribute to Tcozy's value proposition and market reach.
 
 # Validation Testing 
 ## W3C HTML Validator
