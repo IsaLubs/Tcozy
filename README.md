@@ -231,7 +231,7 @@ Cloning a repository allows you to create a local copy of it on your machine:
 #### Issues with code
 Most of the daily problems were solved thanks to [Stackoverflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/).
 
-### Technologies Used
+# Technologies Used
 - [Figma = Wireframes](https://www.figma.com/file/k1vDI4pAx518tG6UAGlqEA/Figma-basics?type=design&node-id=511-10&mode=design&t=IzPyqkX3X6K3nHrF-0)
 - Django = Framework
 - HTML = mark up language
