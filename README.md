@@ -57,6 +57,19 @@ Indulge in the Tcozy Hotel experience and let us be your home away from home. We
 ## Admin Panel
 ![Screenshot 2024-04-22 025402](https://github.com/IsaLubs/Tcozy/assets/147058041/3dccd187-eb15-4333-a21d-fe61364a1259)
 
+# Admin Stories Testing
+As a Admin I can view details about users and partners so that I know who uses our tool.
+Acceptance Criteria 1: In adminpanel i can see a list of all registered accounts.
+Acceptance Criteria 2: If i click on the account i can see if they are a user or partner.
+
+In the admin panel, the admin can see a list of every registered user. When admins click on the user, all information about the user is displayed, including whether the user is a customer or partner. Due to sensitive information, no image of the admin panel is displayed in the readme.
+
+As a Admin I can see a full list of ongoing requests so that I can contact new companies that may have these consultants.
+Acceptance Criteria 1: In adminpanel i can see a list of every request in the database.
+Acceptance Criteria 2: I can see every detail of the request including contact information.
+
+In the admin panel, the admin can see a list of every registered request in the database and details about the request. Due to sensitive information, no image of the admin panel is displayed in the readme.
+
 # Features
 
 ## 1. Booking Management
