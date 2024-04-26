@@ -126,6 +126,7 @@ Overall, Tcozy's target groups comprise hotel owners, operators, and management 
 ## W3C CSS Validator
 - 0 Errors
 - 0 Warnings
+  ![ccss](https://github.com/IsaLubs/Tcozy/assets/147058041/f955d405-639b-49ad-93fc-77c515bcca25)
 ## PEP8 Python Validator
 - 0 Errors
 - 0 Warnings
