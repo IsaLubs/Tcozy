@@ -123,7 +123,9 @@ Overall, Tcozy's target groups comprise hotel owners, operators, and management 
 ## JSHint Javascript Validator
 - 0 Errors
 - 0 Warnings One undefined variable (Bootstrap) - Being used for messages
-  
+## W3C CSS Validator
+- 0 Errors
+- 0 Warnings
 ## PEP8 Python Validator
 - 0 Errors
 - 0 Warnings
