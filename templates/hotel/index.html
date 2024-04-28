@@ -2,6 +2,7 @@
 {% extends 'partials/base.html' %}
 {% load static %}
 {% block content %}
+
         <!-- Banner -->
         <div class="search_container_block main_search_block" data-background-image="{% static 'images/home_section_1.jpg' %}">
             <div class="main_inner_search_block">
@@ -163,9 +164,13 @@
                             </div>
                             <div class="col-md-4 col-sm-5">
                                 <div class="contact-form-action">
-                                    <form method="post">
+                                    
+                                    <div id="success" class="alert alert-success" style="display: none; padding:5px 10px;text-align: center; border-radius: 10px;background-color: rgba(163, 231, 99, 0.8);margin-bottom: 5px; color: white; font-weight: bold;">Thank you for subscribing!</div>
+                                    <div id="error" class="alert alert-danger" style="display: none; padding:5px 10px;text-align: center; border-radius: 10px;background-color: rgba(248, 60, 13, 0.8);margin-bottom: 5px; color: white; font-weight: bold;">This email is already subscribed.</div>
+                                    <form id="subscribe-form" method="post" action='/subscribe/'>
+                                        {% csrf_token %}
                                         <span class="la la-envelope-o"></span>
-                                        <input class="form-control" type="email" placeholder="Enter your email" required="">
+                                        <input id="email" class="form-control" type="email" placeholder="Enter your email" required="">
                                         <button class="utf_theme_btn" type="submit">Subscribe</button>
                                     </form>
                                 </div>
@@ -188,6 +193,44 @@
                 </div>
             </div>
         </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+    $('#subscribe-form').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: '/subscribe/',
+            data: {
+                csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val(),
+                email: $('#email').val(),
+            },
+            success: function(response) {
+                if (response.success) {
+                    $('#success').html('Thank you for subscribing!').fadeIn().delay(3000).fadeOut();
+                    $('#error').fadeOut(); 
+                    $('#email').val(''); 
+                }
+            },
+            error: function(xhr, textStatus, errorThrown) {
+                if (xhr.status == 400) {
+                    var response = JSON.parse(xhr.responseText);
+                    if (response.error == 'Email already subscribed') {
+                        $('#error').html(response.error).fadeIn().delay(3000).fadeOut();
+                        $('#success').fadeOut(); 
+                    }
+                } else {
+                    console.log('Error:', errorThrown);
+                    $('#error').html('An error occurred. Please try again.').fadeIn().delay(3000).fadeOut();
+                    $('#success').fadeOut(); 
+                }
+            }
+        });
+    });
+});
+
+        </script>
 
 {% endblock content %}
     
