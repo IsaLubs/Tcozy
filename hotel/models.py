@@ -1,5 +1,6 @@
 
 
+
 from django.db import models
 #from django_ckeditor_5.fields import CKEditor5Field
 from django.template.defaultfilters import escape
@@ -361,3 +362,5 @@ class Review(models.Model):
     def __str__(self):
         return f"{self.user.username} - {self.rating}"
         
+class Subscriber(models.Model):
+    email = models.EmailField(unique=True)
