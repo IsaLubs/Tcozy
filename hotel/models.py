@@ -363,3 +363,5 @@ class Subscriber(models.Model):
     email = models.EmailField(unique=True)
     def __str__(self) :
         return f"{self.email}"
+class Sample2(models.Model):
+    email = models.EmailField(unique=True)
