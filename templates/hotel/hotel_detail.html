@@ -152,18 +152,36 @@
                     </div>
 
                     <div id="utf_listing_faq" class="utf_listing_section">
-                        <h3 class="utf_listing_headline_part margin-top-50 margin-bottom-40">FAQ's</h3>
+                        <!-- <h3 class="utf_listing_headline_part margin-top-50 margin-bottom-40">FAQ's</h3> -->
+                        <h3 class="utf_listing_headline_part margin-top-50 margin-bottom-40">FAQ's         
+                            {% if request.user.is_authenticated %}
+                            <button id="add-faq-button" style="border: none; background: transparent;"><i class="fas fa-plus"></i></button></h3>
+
+                        <div id="add-faq-form" style="display: none;">
+                            <input type="text" id="question" placeholder="Enter your question">
+                            <input type="text" id="answer" placeholder="Enter your answer">
+                            <button id="save-faq-button" style="margin-bottom: 5px; border-radius: 10px; background-color: #8400ff;font-weight: bold; color: white; border: none; padding: 2px 6px;">Save</button>
+                        </div>
+                        {% endif %}
                         <div class="style-2">
                             <div class="accordion">
-                                
                                 {% for h in hotel.hotel_faqs %}
-                                    <h3><span class="ui-accordion-header-icon ui-icon ui-accordion-icon"></span><i class="sl sl-icon-plus"></i> ({{forloop.counter}}) {{h.question}}</h3>
+                                    <h3><span class="ui-accordion-header-icon ui-icon ui-accordion-icon"></span> ({{forloop.counter}}) {{h.question}}
+                                        {% if request.user.is_authenticated %}
+
+                                        <button class="edit-faq" style="border: none; background: transparent;" data-id="{{ h.hfid }}"><i class="fas fa-edit" style="color: blue;"></i></button>
+                                            <button class="delete-faq" style="border: none; background: transparent;" data-id="{{ h.hfid }}"><i class="fas fa-trash" style="color: red;"></i></button>
+                                            {% endif %}
+                                            <i class="fas fa-caret-down"></i>
+                                        
+                                    </h3>
                                     <div>
-                                        <p>{{h.answer}}</p>
+                                        <p id="faq-{{ h.hfid }}">{{h.answer}}</p>
+                                        <input type="text" id="edit-faq-{{ h.hfid }}" value="{{ h.answer }}" style="display: none;">
+
+                                        <button class="save-faq" style="display: none; margin-bottom: 5px; border-radius: 10px; background-color: #8400ff;font-weight: bold; color: white; border: none; padding: 2px 6px;" data-id="{{ h.hfid }}" style="display: none;">Save</i></button>
                                     </div>
                                 {% endfor %}
-
-                                
                             </div>
                         </div>
                     </div>
@@ -197,9 +215,22 @@
                                 <li>
                                     <div class="avatar"><img src="{{ a.user.profile.image.url }}" alt="" /></div>
                                     <div class="utf_comment_content">
+                                        
                                         <div class="utf_arrow_comment"></div>
-                                        <div class="utf_by_comment"><p>{{ a.user.profile.full_name }} - {{ a.rating }} <i class="fas fa-star text-warning"></i> </p>  <span class="date"><i class="fa fa-clock-o"></i> {{ a.date }}</span> </div>
-                                        <p>{{ a.review }}</p>
+                                        <div class="utf_by_comment">
+                                            <p>{{ a.user.profile.full_name }} - {{ a.rating }} <i class="fas fa-star text-warning"></i>  
+                                                {% if request.user.is_authenticated %}
+
+                                                <button class="edit" style="border: none; background: transparent;" data-id="{{ a.id }}"><i class="fas fa-edit" style="color: blue; "></i></button>
+                                                <button class="delete" style="border: none; background: transparent;"  data-id="{{ a.id }}"><i class="fas fa-trash" style="color: red;"></i></i></button>
+                                                {% endif %}
+                                            </p>
+                                            <span class="date"><i class="fa fa-clock-o"></i> {{ a.date }}</span>
+                                           
+                                        </div>
+                                        <p id="review-{{ a.id }}">{{ a.review }}</p>
+                                        <input type="text" id="edit-{{ a.id }}" value="{{ a.review }}" style="display: none;">
+                                        <button class="save" data-id="{{ a.id }}" style="display: none; border-radius: 10px; background-color: #8400ff;font-weight: bold; color: white; border: none; padding: 2px 6px;">Save</button>
                                     </div>
                                 </li>
                                 {% empty %}
@@ -312,5 +343,140 @@
                 </div>
             </div>
         </div>
+       <script>
+        $(document).ready(function() {
+    $('.edit').click(function() {
+        var id = $(this).data('id');
+        $('#review-' + id).hide();
+        $('#edit-' + id).show();
+        $(this).hide();
+        $('.save[data-id="' + id + '"]').show();
+    });
+
+    $('.save').click(function() {
+        var id = $(this).data('id');
+        $.ajax({
+            url : "/reviews/" + id + "/edit/", 
+            type : "POST", 
+            data : { review : $('#edit-' + id).val() }, 
+
+            success : function(json) {
+                alert(json.success);
+                location.reload();
+            },
+
+            error : function(xhr,errmsg,err) {
+                console.log(xhr.status + ": " + xhr.responseText); 
+            }
+        });
+    });
+
+    $('.delete').click(function() {
+        var id = $(this).data('id');
+        $.ajax({
+            url : "/reviews/" + id + "/delete/", 
+            type : "POST", 
+
+            success : function(json) {
+                alert(json.success);
+                location.reload(); 
+            },
+
+            error : function(xhr,errmsg,err) {
+                console.log(xhr.status + ": " + xhr.responseText); 
+            }
+        });
+    });
+});
+
+       </script>
+       <script>
+        $(document).ready(function() {
+    $('.edit-faq').click(function() {
+        var id = $(this).data('id');
+        $('#faq-' + id).hide();
+        $('#edit-faq-' + id).show();
+        $(this).hide();
+        $('.save-faq[data-id="' + id + '"]').show();
+    });
+
+    $('.save-faq').click(function() {
+        var id = $(this).data('id');
+        $.ajax({
+            url : "/faqs/" + id + "/edit/", 
+            type : "POST", 
+            data : { answer : $('#edit-faq-' + id).val() }, 
+
+            success : function(json) {
+                alert(json.success);
+                location.reload(); 
+            },
+
+            error : function(xhr,errmsg,err) {
+                console.log(xhr.status + ": " + xhr.responseText); 
+            }
+        });
+    });
+
+    $('.delete-faq').click(function() {
+        var id = $(this).data('id');
+        $.ajax({
+            url : "/faqs/" + id + "/delete/",
+            type : "POST", 
+
+            success : function(json) {
+                alert(json.success);
+                location.reload();
+            },
+
+            error : function(xhr,errmsg,err) {
+                console.log(xhr.status + ": " + xhr.responseText); 
+            }
+        });
+    });
+});
+
+       </script>
+       <script>
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                let cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    let cookie = jQuery.trim(cookies[i]);
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+        
+        let csrftoken = getCookie('csrftoken');
+        
+        $(document).ready(function() {
+            $('#add-faq-button').click(function() {
+                $('#add-faq-form').show();
+            });
+        
+            $('#save-faq-button').click(function() {
+                $.ajax({
+                    url : "/faqs/add/",
+                    type : "POST", 
+                    data : { csrfmiddlewaretoken: csrftoken, hotel_id: '{{hotel.id}}', question : $('#question').val(), answer : $('#answer').val() }, 
+        
+                    success : function(json) {
+                        alert(json.success);
+                        location.reload(); 
+                    },
+        
+                    error : function(xhr,errmsg,err) {
+                        console.log(xhr.status + ": " + xhr.responseText); 
+                    }
+                });
+            });
+        });
+        </script>
 
 {% endblock content %}
