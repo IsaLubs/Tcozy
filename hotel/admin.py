@@ -68,6 +68,8 @@ class BookmarkAdmin(ImportExportModelAdmin):
 class ReviewAdmin(admin.ModelAdmin):
     list_editable = ['active']
     list_display = ['user', 'hotel', 'review', 'reply' ,'rating', 'active']
+class FaqAdmin(admin.ModelAdmin):
+    list_display = ['hotel', 'question', 'date']
 
 
 admin.site.register(Hotel, HotelAdmin)
@@ -78,4 +80,5 @@ admin.site.register(Coupon, CouponAdmin)
 admin.site.register(Notification, NotificationAdmin)
 admin.site.register(Bookmark, BookmarkAdmin)
 admin.site.register(Review, ReviewAdmin)
+admin.site.register(HotelFAQs,FaqAdmin)
 
