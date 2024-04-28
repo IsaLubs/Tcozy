@@ -12,7 +12,14 @@ urlpatterns = [
     path("checkout/<booking_id>/", views.checkout, name="checkout"),
     path("invoice/<booking_id>/", views.invoice, name="invoice"),
     path("update_room_status/", views.update_room_status, name="update_room_status"),
-    
+    path('subscribe/', views.subscribe, name='subscribe'),
+    path('reviews/<int:review_id>/edit/', views.edit_review, name='edit_review'),
+    path('reviews/<int:review_id>/delete/', views.delete_review, name='delete_review'),
+    path('faqs/<str:faq_id>/edit/', views.edit_faq, name='edit_faq'),
+    path('faqs/<str:faq_id>/delete/', views.delete_faq, name='delete_faq'),
+    path('faqs/add/', views.add_faq, name='add_faq'),
+
+
     # Payment API
     path('api/checkout-session/<booking_id>/', views.create_checkout_session, name='api_checkout_session'),
     path('success/<booking_id>/', views.payment_success, name='success'),
