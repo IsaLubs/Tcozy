@@ -168,7 +168,6 @@
                                     <div id="success" class="alert alert-success" style="display: none; padding:5px 10px;text-align: center; border-radius: 10px;background-color: rgba(163, 231, 99, 0.8);margin-bottom: 5px; color: white; font-weight: bold;">Thank you for subscribing!</div>
                                     <div id="error" class="alert alert-danger" style="display: none; padding:5px 10px;text-align: center; border-radius: 10px;background-color: rgba(248, 60, 13, 0.8);margin-bottom: 5px; color: white; font-weight: bold;">This email is already subscribed.</div>
                                     <form id="subscribe-form" method="post" action='/subscribe/'>
-                                        {% csrf_token %}
                                         <span class="la la-envelope-o"></span>
                                         <input id="email" class="form-control" type="email" placeholder="Enter your email" required="">
                                         <button class="utf_theme_btn" type="submit">Subscribe</button>
