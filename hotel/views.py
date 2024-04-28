@@ -10,8 +10,7 @@ from django.template.loader import render_to_string
 from django.core.mail import EmailMultiAlternatives
 
 
-
-from hotel.models import Coupon, CouponUsers, Hotel, Room, Booking, RoomServices, HotelGallery, HotelFeatures, RoomType, Notification, Bookmark, Review
+from hotel.models import HotelFAQs, Subscriber, Coupon, CouponUsers, Hotel, Room, Booking, RoomServices, HotelGallery, HotelFeatures, RoomType, Notification, Bookmark, Review
 
 from datetime import datetime
 from decimal import Decimal
@@ -26,6 +25,15 @@ def index(request):
     }
     return render(request, "hotel/index.html", context)
 
+@csrf_exempt  # Only for demonstration, CSRF protection should be enabled in production
+def subscribe(request):
+    if request.method == 'POST':
+        email = request.POST.get('email')
+        if not Subscriber.objects.filter(email=email).exists():
+            Subscriber.objects.create(email=email)
+            return JsonResponse({'success': True})
+        else:
+            return JsonResponse({'error': 'Email already subscribed'}, status=400)
 
 def hotel_detail(request, slug):
     hotel = Hotel.objects.get(status="Live", slug=slug)
@@ -47,6 +55,45 @@ def hotel_detail(request, slug):
     }
     return render(request, "hotel/hotel_detail.html", context)
 
+@csrf_exempt 
+def edit_review(request, review_id):
+    if request.method == 'POST':
+        review = Review.objects.get(id=review_id)
+        review.review = request.POST.get('review')
+        review.save()
+        return JsonResponse({'success': 'Review updated successfully'})
+
+@csrf_exempt  
+def delete_review(request, review_id):
+    if request.method == 'POST':
+        review = Review.objects.get(id=review_id)
+        review.delete()
+        return JsonResponse({'success': 'Review deleted successfully'})
+
+@csrf_exempt  
+def edit_faq(request, faq_id):
+    if request.method == 'POST':
+        faq = HotelFAQs.objects.get(hfid=faq_id)
+        faq.answer = request.POST.get('answer')
+        faq.save()
+        return JsonResponse({'success': 'FAQ updated successfully'})
+
+@csrf_exempt 
+def delete_faq(request, faq_id):
+    if request.method == 'POST':
+        faq = HotelFAQs.objects.get(hfid=faq_id)
+        faq.delete()
+        return JsonResponse({'success': 'FAQ deleted successfully'})
+
+@csrf_exempt  
+def add_faq(request):
+    if request.method == 'POST':
+        question = request.POST.get('question')
+        answer = request.POST.get('answer')
+        hotel_id = request.POST.get('hotel_id')
+        hotel = Hotel.objects.get(id=hotel_id)
+        HotelFAQs.objects.create(hotel=hotel, question=question, answer=answer)
+        return JsonResponse({'success': 'FAQ added successfully'})
 def about_us(request):
     return render(request, "partials/about.html")
 
