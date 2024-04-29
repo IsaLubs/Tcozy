@@ -95,7 +95,8 @@ Ensure the security of guest data and sensitive information with robust security
 
 ## 8. Mobile Compatibility
 Access key features of the system on the go with mobile compatibility. Whether on a smartphone or tablet, stay connected and manage hotel operations from anywhere, at any time.
-
+## 9. Reviews.
+## 10. FAQ'S
 # Target Group: 
 ## Customers:
 
