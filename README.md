@@ -96,7 +96,9 @@ Ensure the security of guest data and sensitive information with robust security
 ## 8. Mobile Compatibility
 Access key features of the system on the go with mobile compatibility. Whether on a smartphone or tablet, stay connected and manage hotel operations from anywhere, at any time.
 ## 9. Reviews.
+![Reviews ](https://github.com/IsaLubs/Tcozy/assets/147058041/d5dd5c3a-2ede-4851-b064-c9d05f870da2)
 ## 10. FAQ'S
+![faqs](https://github.com/IsaLubs/Tcozy/assets/147058041/e717f50c-0577-41d6-8280-c5df3fb1187d)
 # Target Group: 
 ## Customers:
 
