@@ -98,7 +98,7 @@ Access key features of the system on the go with mobile compatibility. Whether o
 ## 9. Reviews.
 ![Reviews ](https://github.com/IsaLubs/Tcozy/assets/147058041/d5dd5c3a-2ede-4851-b064-c9d05f870da2)
 ## 10. FAQ'S
-![faqs](https://github.com/IsaLubs/Tcozy/assets/147058041/e717f50c-0577-41d6-8280-c5df3fb1187d)
+![new faqs](https://github.com/IsaLubs/Tcozy/assets/147058041/7e0cd73b-c34e-4da3-bf44-2b4493b80bb7)
 # Target Group: 
 ## Customers:
 
