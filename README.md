@@ -1,5 +1,5 @@
 # Hotel management-tcozy
-[Visit the website here](https://hotelmanagement-tcozy-a5d15030424a.herokuapp.com/)
+[Visit the website here](https://tcozy-6258ec50a7a9.herokuapp.com/)
 
 Welcome to Hotel Management System!, where comfort meets elegance! Our app invites users to experience the epitome of relaxation and luxury at our boutique hotel. Inspired by our passion for hospitality and fueled by a desire to provide a haven for travelers, Tcozy Hotel offers a seamless booking experience for your perfect getaway.
 
